@@ -1,0 +1,45 @@
+
+.NUOVACLASSE_CSS /*CREO CLASSE*/
+{
+
+
+    color:red;
+
+
+}
+
+
+td,p,div /*PER TAG*/
+{
+
+color:blue;
+text-align: center;
+
+}
+
+#tabella-utenti /*PER ID*/
+
+{
+font-weight: bold;
+
+}
+
+th
+
+{
+
+color:chartreuse;
+
+}
+
+div
+{
+
+    background-image: url('3881976349.jpg');
+    height: 100px;
+    width: 200px;
+    color: blueviolet;
+    text-align:center;
+    vertical-align:auto;
+    padding: 70PX 0 0;
+      justify-content: center;

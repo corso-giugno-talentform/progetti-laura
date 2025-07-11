@@ -1,0 +1,101 @@
+
+/*definizione variabili css in root*/
+
+
+:root
+{
+
+
+--primary-color:black;
+--secondary-color:blue;
+--terzo-color:orange;
+
+
+
+}
+
+
+/*:pseudo classe*/
+
+
+a:hover {
+    color:var(--primary-color);
+   
+}
+
+
+
+
+/*:: pseudo elements*/
+/*aggiunge qualcosa al contenuto del tag prima o dopo*/
+
+p
+{
+
+    color:var(--primary-color);
+}
+
+a::before
+{
+
+    content:'*';
+}
+
+a::after
+{
+
+    content:'...';
+}
+
+.provaclasse
+
+{
+
+    color:var(--secondary-color);
+
+}
+
+.First
+
+{
+
+    color:var(--terzo-color);
+}
+
+.First::first-letter
+
+{
+
+    font-size: 40px;
+
+
+}
+
+
+
+@media (min-width:768px)
+{
+.provaclasse
+{
+    color:var(--terzo-color);
+}
+
+}
+
+
+blockquote::before
+{
+
+    display: inline-flex;
+    content:'';
+    background-image: url('3881976349.jpg');
+
+    height: 100px;
+    width: 100px;
+   
+}
+
+
+
+
+

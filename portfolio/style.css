@@ -1,0 +1,43 @@
+
+:root
+
+{
+
+--dimension:10px;
+
+}
+
+
+
+.logo
+
+{
+
+    height: 50px;
+    width: 50px;
+}
+
+.navbar
+{
+
+display: flex;
+border-bottom: black;
+border-bottom-style: solid;
+border-bottom-width:3px;
+
+
+}
+
+.nav-container
+{
+
+margin-left: var(--dimension*2);
+margin-top: 10px;
+
+}
+
+.rosso
+{
+
+    color:red;
+}
