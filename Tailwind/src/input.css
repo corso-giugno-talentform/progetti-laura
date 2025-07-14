@@ -1,0 +1,218 @@
+/*@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Silkscreen:wght@400;700&display=swap');*/
+
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-serif: "Silkscreen", sans-serif;
+    --breakpoint-3xl: 120rem;
+    --color-avocado-100: oklch(0.99 0 0);
+    --color-avocado-200: oklch(0.98 0.04 113.22);
+    --color-avocado-300: oklch(0.94 0.11 115.03);
+    --color-avocado-400: oklch(0.92 0.19 114.08);
+    --color-avocado-500: oklch(0.84 0.18 117.33);
+    --color-avocado-600: oklch(0.53 0.12 118.34);
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+    /* ... */
+
+
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+     --bs-navbar-brand-hover-color: #fff;
+     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.testo-gigantesco {
+    @apply text-4xl underline italic font-semibold;
+}
+
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+header.masthead .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+
+
+
+
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #ee0979;
+  --bs-red: #dc3545;
+  --bs-orange: #ff6a00;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #ee0979;
+  --bs-secondary: #ff6a00;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 238, 9, 121;
+  --bs-secondary-rgb: 255, 106, 0;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --bs-body-font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-link-color: #ee0979;
+  --bs-link-hover-color: #be0761;
+  --bs-code-color: #ee0979;
+  --bs-highlight-bg: #fff3cd;
+}
+*,
+*::before,
+*::after {
+  @apply box-border;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    @apply scroll-smooth;
+  }
+}
+
+
+body {
+  @apply text-[length:var(--bs-body-font-size)] font-[number:var(--bs-body-font-weight)] leading-[var(--bs-body-line-height)] text-[color:var(--bs-body-color)] bg-[color:var(--bs-body-bg)] m-0;
+  font-family: var(--bs-body-font-family);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+html {
+  @apply scroll-pt-[67px];
+}
+.btn-xl {
+  @apply uppercase text-[0.9rem] font-bold tracking-[0.1rem] px-12 py-6;
+}
+.navbar-custom {
+  @apply bg-[rgba(0,0,0,0.7)] py-4;
+}
+.navbar-custom .navbar-brand {
+  @apply uppercase text-base tracking-[0.1rem] font-bold;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  @apply uppercase text-[0.8rem] font-bold tracking-[0.1rem];
+}
+header.masthead {
+  @apply relative overflow-hidden bg-no-repeat bg-[center_center] bg-scroll bg-cover pt-[calc(7rem_+_72px)] pb-28;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+}
+header.masthead .masthead-content {
+  @apply z-[1] relative;
+}
+header.masthead .masthead-content .masthead-heading {
+  @apply text-[4rem];
+}
+header.masthead .masthead-content .masthead-subheading {
+  @apply text-[2rem];
+}
+header.masthead .bg-circle {
+  @apply z-0 absolute rounded-[100%];
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+header.masthead .bg-circle-1 {
+  @apply h-[90rem] w-[90rem] bottom-[-55rem] left-[-55rem];
+}
+header.masthead .bg-circle-2 {
+  @apply h-[50rem] w-[50rem] top-[-25rem] right-[-25rem];
+}
+header.masthead .bg-circle-3 {
+  @apply h-80 w-80 bottom-[-10rem] right-[5%];
+}
+header.masthead .bg-circle-4 {
+  @apply h-[30rem] w-[30rem] top-[-5rem] right-[35%];
+}

@@ -1,0 +1,82 @@
+ :root {
+     --gap-standard: 15px;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: column;
+     gap: var(--gap-standard);
+     max-width: 1024px;
+     margin: auto;
+     text-align: center;
+ }
+
+ .main-row {
+     display: flex;
+     gap: var(--gap-standard);
+ }
+
+ .left-column {
+     display: flex;
+     flex-direction: column;
+     flex: 0.4;
+     gap: var(--gap-standard);
+ }
+
+ .right-column {
+     display: flex;
+     flex-direction: column;
+     flex: 0.6;
+     gap: var(--gap-standard);
+ }
+
+ .griglia {
+     background-color: #444;
+     color: #fff;
+     padding: 25px;
+     font-size: 3rem;
+ }
+
+ .header {
+     background-color: #55d4eb;
+ }
+
+ .hero {
+     background-color: #d5c9e2;
+     min-height: 300px;
+ }
+
+ .sidebar {
+     background-color: #a0c263;
+     min-height: 400px;
+ }
+
+ .content {
+     background-color: #f5c531;
+     min-height: 500px;
+ }
+
+ .extra {
+     background-color: #898989;
+     min-height: 200px;
+ }
+
+ .related-row {
+     display: flex;
+     gap: var(--gap-standard);
+ }
+
+ .related-images {
+     background-color: #2BB673;
+     min-height: 150px;
+     flex: 0.7;
+ }
+
+ .related-posts {
+     background-color: #f3cddd;
+     flex: 0.3;
+ }
+
+ .footer {
+     background-color: #FFA500;
+ }
